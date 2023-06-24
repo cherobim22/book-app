@@ -8,8 +8,13 @@
 
 Install the dependencies and start the server.
 
+- add a .env file with the same configs off the .env.example
+
 ```sh
+composer install
+php artisan key:generate
 php artisan jwt:secret
+php artisan migrate
 php artisan serve
 ```
 
