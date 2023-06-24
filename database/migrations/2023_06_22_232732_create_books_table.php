@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name')->required();
-            $table->string('isbn')->unique()->nullable();
+            $table->string('isbn')->nullable();
             $table->decimal('value', 8, 2);
         });
     }
