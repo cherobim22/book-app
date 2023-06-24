@@ -39,9 +39,9 @@ Prefix: /api
 | Get book | GET | /books/{id}
 | Edit books| PUT | /books/{id}
 | Delete books| DELETE | /books /{id}
-| Register | POST | /books 
-| Login | POST | /books 
-| Logout | POST | /books 
+| Register | POST | /register 
+| Login | POST | /login 
+| Logout | POST | /logout 
 
 ## EXAMPLES
 
