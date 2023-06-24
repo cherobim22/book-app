@@ -10,7 +10,7 @@ use Tymon\JWTAuth\Exceptions\JWTException;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Hash;
 
-
+// php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 class AuthController extends Controller
 {
     public function store(Request $request)
